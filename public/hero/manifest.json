@@ -1,0 +1,11 @@
+{
+  "count": 120,
+  "prefix": "frame_",
+  "pad": 4,
+  "ext": "webp",
+  "basePath": "/hero/frames",
+  "poster": "/hero/poster.webp",
+  "width": 1280,
+  "height": 720,
+  "fps": 12
+}
