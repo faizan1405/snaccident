@@ -34,10 +34,11 @@ export function Navbar() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link
           href="/"
-          className="font-display text-base tracking-[0.3em] text-white"
+          className="flex items-center gap-2.5 font-display text-base tracking-[0.3em] text-white"
           aria-label="SNACCIDENT home"
         >
-          SNACCIDENT
+          <img src="/favicon.png" alt="SNACCIDENT logo" className="h-7 w-7 rounded-md object-cover shrink-0" />
+          <span>SNACCIDENT</span>
         </Link>
 
         <ul className="hidden items-center gap-10 text-[11px] uppercase tracking-[0.2em] text-white/60 md:flex">
